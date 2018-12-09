@@ -6,20 +6,14 @@ Do It Yourself Raspberry Pi server status monitoring class.
 Usage
 -----
 
-import DiyhasSystem
-...
-
-SYSTEM = DiyhasSystem.DiyhasSystem(CLIENT, HOSTNAME, INTERVAL)
-
-# CLIENT is the MQTT client
-# HOSTNAME is the Raspberry Pi host name
-# INTERVAL is the time interval to collect and publish status in seconds
+import diysystem
+SYSTEM = diysystem.DiySystem(CLIENT, HOSTNAME, INTERVAL)
 
 Installation
 ------------
 
-       git clone https://github.com/parttimehacker/Python-DIY-System.git
-       python setup.py install
+git clone https://github.com/parttimehacker/Python-DIY-System.git
+python setup.py install
 
 Requirements
 ^^^^^^^^^^^^
