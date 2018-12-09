@@ -23,7 +23,7 @@ setup(
     author_email="parttimehacker@gmail.com",
 
     description="Do It Yourself Raspberry Pi server status monitoring class",
-    long_description=read("README.rst"),
+    long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
 
