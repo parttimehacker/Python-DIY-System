@@ -18,8 +18,8 @@ SYSTEM = DiyhasSystem.DiyhasSystem(CLIENT, HOSTNAME, INTERVAL)
 Installation
 ------------
 
-       1. git clone https://github.com/parttimehacker/Python-DIY-System.git
-       2. python setup.py install
+       git clone https://github.com/parttimehacker/Python-DIY-System.git
+       python setup.py install
 
 Requirements
 ^^^^^^^^^^^^
