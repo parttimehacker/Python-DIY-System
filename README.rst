@@ -6,10 +6,10 @@ Do It Yourself Raspberry Pi server status monitoring class.
 Usage
 -----
 
-``
+.. codeblock:: python
 import diysystem
 SYSTEM = diysystem.DiySystem(CLIENT, HOSTNAME, INTERVAL)
-``
+::
 
 Installation
 ------------
