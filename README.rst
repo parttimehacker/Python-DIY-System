@@ -6,16 +6,16 @@ Do It Yourself Raspberry Pi server status monitoring class.
 Usage
 -----
 
-.. codeblock:: python
-import diysystem
+```
+import diysystem::
 SYSTEM = diysystem.DiySystem(CLIENT, HOSTNAME, INTERVAL)
-::
+```
 
 Installation
 ------------
 
 ```
-git clone https://github.com/parttimehacker/Python-DIY-System.git
+git clone https://github.com/parttimehacker/Python-DIY-System.git::
 python setup.py install
 ```
 
