@@ -22,7 +22,7 @@ setup(
     author="Dave Wilson",
     author_email="parttimehacker@gmail.com",
 
-    description="Do It Yourself Raspberry Pi server status monitoring class",
+    description="Server operating system status monitoring and MQTT publishing class",
     long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
