@@ -23,8 +23,11 @@ Installation
 
 Requirements
 
-Compatibility
--------------
+       import datetime
+       import time
+       from threading import Thread
+       import logging
+       import psutil
 
 Licence
 -------
