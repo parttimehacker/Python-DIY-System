@@ -1,7 +1,7 @@
 diysystem
 =========
 
-Do It Yourself Raspberry Pi server status monitoring class
+A class to collect four Raspberry PI server metrics and the publish to a MQTT messager broker. The class collects CPU, memory, and disk utilization. It also computes server up time since last reboot. It was developed as part of my Do It Yourself Home Automation System.
 
 Usage
 -----
