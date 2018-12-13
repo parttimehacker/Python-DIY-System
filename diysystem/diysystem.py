@@ -84,6 +84,11 @@ class DiySystem(object,):
             time.sleep(self.interval)
             self.check_system_status()
 
+    def shutdown(self,):
+        ''' shutdown the diysystem thread
+        '''
+        self.thread.exit()
+
 
 if __name__ == '__main__':
     exit()
