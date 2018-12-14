@@ -26,6 +26,7 @@ class DiySystem(object,):
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
         self.logger.setLevel(logging.DEBUG)
+        self.active = True
         self.thread = Thread(target=self.system_status_thread)
         self.thread.start()
 
@@ -80,14 +81,14 @@ class DiySystem(object,):
     def system_status_thread(self,):
         ''' check server status on user defined interval
         '''
-        while True:
+        while self.active:
             time.sleep(self.interval)
             self.check_system_status()
 
     def shutdown(self,):
         ''' shutdown the diysystem thread
         '''
-        self.thread.exit()
+        self.active = False
 
 
 if __name__ == '__main__':
