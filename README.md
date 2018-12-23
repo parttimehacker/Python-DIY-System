@@ -17,7 +17,7 @@ Usage
 Installation
 ------------
 
-        git clone https://github.com/parttimehacker/Python-DIY-System.git
+        git clone https://github.com/parttimehacker/Python_DIY_System.git
         cd Python_DIY_System
         python setup.py install
 
