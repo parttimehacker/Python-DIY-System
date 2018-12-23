@@ -18,7 +18,7 @@ Installation
 ------------
 
         git clone https://github.com/parttimehacker/Python-DIY-System.git
-        cd Python-DIY-System
+        cd Python_DIY_System
         python setup.py install
 
 Requirements
